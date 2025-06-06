@@ -10,7 +10,6 @@ Este projeto consiste na modernização e reestruturação completa do site da I
 * **Modernizar a Interface:** Atualizar o design da intranet para um visual mais limpo, agradável e alinhado com as tendências de UI/UX atuais.
 * **Implementar Design Responsivo:** Garantir que o site seja totalmente funcional e visualmente adaptado para diferentes dispositivos, como desktops, tablets e celulares.
 * **Melhorar a Navegabilidade:** Reorganizar a arquitetura da informação com uma sidebar intuitiva e menus de acesso rápido para facilitar o acesso dos colaboradores às ferramentas e informações importantes.
-* **Estruturar o Código:** Desenvolver um código-fonte limpo, semântico e bem documentado, facilitando futuras manutenções e a implementação de novas funcionalidades.
 
 ## 🛠️ Tecnologias Utilizadas
 

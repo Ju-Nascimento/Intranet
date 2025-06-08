@@ -1,65 +1,112 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<title>.:: Petrox Distribuidora - Ramais ::.</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<style type="text/css">
-</style>
-<script language="JavaScript" type="text/JavaScript">
-</script>
-</head>
-<body bgcolor="#FFFFFF" topmargin="0" marginheight="0">
-<div align="center">
-  <center>
-        <table width="779" border="0" cellpadding="0" cellspacing="0" id="Tabela_01" style="border-collapse: collapse" bordercolor="#111111">
-          <tr>
-            <td height="96" colspan="3"> <em>
-              <a href="index.html"><img src="imagens/principal_01.jpg" width="103" height="96" border="0"></a>
-              <a href="index.html"><img src="imagens/principal_02.jpg" alt="" width="213" height="96" border="0"></a>
-              <img src="imagens/principal_03.jpg" width="462" height="96">
-            </em></td>
-          </tr>
-          <tr>
-            <td height="33" background="imagens/barra_fundo.gif" width="227"> <div align="left"><a href="index.html"><img src="imagens/home.jpg" width="72" height="33" border="0"></a></div></td>
-            <td height="33" background="imagens/barra_fundo.gif" width="371"><div align="right"><a href="javascript:linkHelpDesk();" style="text-decoration: none"><img src="imagens/hel_desk.jpg" alt="" width="83" height="33" border="0"></a><a href="paginas/redirecionaHelpDesk.aspx"></a><a href="cliente" style="text-decoration: none"><img src="imagens/petrox_cliente.gif" alt="" width="129" height="33" border="0"></a><a href="/cliente"></a></div></td>
-            <td width="181" height="33" background="imagens/barra_fundo.gif"> <a href="siap"><img src="imagens/siap.jpg" alt="" width="65" height="33" border="0"></a><a href="/siap"></a></td>
-          </tr>
-          <tr>
-            <td height="87" width="227"><div align="right"><img src="imagens/principal_08.jpg" width="226" height="87"></div></td>
-            <td height="87" background="imagens/principal_09.jpg" width="371">&nbsp;</td>
-            <td width="181" height="87"><img src="imagens/principal_10.jpg" width="181" height="87"></td>
-          </tr>
-          <tr>
-            <td height="38" width="227"><img src="imagens/menu_topo.gif" width="226" height="38"></td>
-            <td height="38" colspan="2" background="imagens/interna_03.jpg">
-            <p align="center"><b><font size="2" face="Verdana" color="#800000">
-            Ramais</font></b></td>
-          </tr>
-          <tr>
-            <td width="227" valign="top" background="imagens/menu_corpo.gif">
-              <table width="170" border="0" align="center" cellpadding="0" cellspacing="0">
-              <tr>
-                <td valign="top">
-                  <script type="text/javascript" src="stmenu.js"></script>
-                  <script type="text/javascript"></script>
-                </td>
-              </tr>
-            </table>
-            <p align="center"><a href="webmail.html"><img src="imagens/mail.jpg" alt="" width="187" height="41" border="0"></a></p></td>
-            <td colspan="2" background="imagens/interna_05.jpg">
-              <div class="container my-4">
-                <h2 class="text-center mb-4">Lista de Ramais</h2>
-                <div class="table-responsive">
-                  <table class="table table-striped table-bordered align-middle">
+  <meta charset="UTF-8">
+  <title>Intranet Petrox</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="../style.css">
+
+  </head>
+<body>
+
+  <div class="sidebar border-end">
+    <div class="text-center p-3 border-bottom bg-white">
+      <img src="../pictures/logopetrox.png" alt="Logo da Empresa" style="max-width: 100%; height: 60px;">
+    </div>
+    
+
+
+    <ul class="nav flex-column bg-light">
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu1">Administração <i class="bi bi-chevron-down"></i></a>
+        <div class="collapse submenu" id="submenu1">
+          <a class="nav-link text-dark" href="#">Diretoria</a>
+          <a class="nav-link text-dark" href="#">Gestão</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu2">Institucional <i class="bi bi-chevron-down"></i></a>
+        <div class="collapse submenu" id="submenu2">
+          <a class="nav-link text-dark" href="#">História</a>
+          <a class="nav-link text-dark" href="#">Missão e Visão</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../pages/telefone.html">Telefones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="../pages/emails.html">E-mails</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu4">Informativos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu5">Links Úteis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu6">Formularios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu7">Procedimentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" data-bs-toggle="collapse" href="#submenu8">Canal do Colaborador</a>
+      </li>
+      </ul>
+  </div>
+
+  <div class="content">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">PETROX DISTRIBUIDORA</a>
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
+            <li class="nav-item me-3"><a class="nav-link text-dark" href="#">SIAP</a></li>
+            <li class="nav-item me-3"><a class="nav-link text-dark" href="#">HELP DESK</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#">PETROX CLIENTE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  
+  <div class="container my-4 custom-table-container">
+  <h2 class="text-center mb-4">Lista de Ramais</h2>
+  <div class="table-responsive">
+    <table class="table custom-table align-middle">
+
                     <thead class="cabecalho-vermelho">
                       <tr>
-                        <th style="width: 25%;">Setor</th>
-                        <th>Colaboradores</th>
+                        <th style="width: 15%;">Setor</th>
+                        <th style="width: 15%;">Colaboradores</th>
                         <th style="width: 15%;">Ramal</th>
                       </tr>
                     </thead>
+                    <!--Administrativo; Auditoria; Cobrança e Crédito; Contabilidade; Copa; Diretoria; Financeiro; 
+                    Fiscal; Frota; Frota Base; Jurídico; Operações; 
+                    Recepção; Salas de Reunião; Setor Pessoal; T.I.; Vendas
+                    -->
                     <tbody>
+                       <tr>
+                        <td rowspan="3">Administrativo</td>
+                        <td>Sylvia</td>
+                        <td>6002</td>
+                      </tr>
+                      <tr>
+                        <td>Matheus</td>
+                        <td>6038</td>
+                      </tr>
+                      <tr>
+                        <td>Eva /</td>
+                        <td>6037</td>
+                      </tr>
+                       <tr>
+                          <td>Auditoria</td>
+                          <td>Pablo</td>
+                          <td>6042</td>
+                      </tr>
                       <tr>
                         <td rowspan="3">Cobrança e Crédito</td>
                         <td>Elizandra</td>
@@ -172,6 +219,11 @@
                         <td>6029</td>
                       </tr>
                       <tr>
+                        <td>Jurídico</td>
+                        <td>Thais</td>
+                        <td>6024</td>
+                      </tr>
+                      <tr>
                         <td rowspan="3">Operações</td>
                         <td>Emanoel</td>
                         <td>6005</td>
@@ -184,19 +236,7 @@
                         <td>Roberto/Michelle</td>
                         <td>6026</td>
                       </tr>
-                       <tr>
-                        <td rowspan="3">Administrativo</td>
-                        <td>Sylvia</td>
-                        <td>6002</td>
-                      </tr>
-                      <tr>
-                        <td>Matheus</td>
-                        <td>6038</td>
-                      </tr>
-                      <tr>
-                        <td>Edmo</td>
-                        <td>6037</td>
-                      </tr>
+                      
                       <tr>
                         <td rowspan="2">Recepção</td>
                         <td>Luci</td>
@@ -265,47 +305,16 @@
                         <td>Jô</td>
                         <td>6031</td>
                       </tr>
-                      <tr>
-                        <td>Jurídico</td>
-                        <td>Thais</td>
-                        <td>6024</td>
-                      </tr>
-                      <tr>
-                          <td rowspan="2">Salas de Reunião</td>
-                          <td>Álvaro</td>
-                          <td>6041</td>
-                      </tr>
-                      <tr>
-                          <td>Sônia</td>
-                          <td>6054</td>
-                      </tr>
-                      <tr>
-                          <td>Auditoria</td>
-                          <td>Pablo</td>
-                          <td>6042</td>
-                      </tr>
-                      <tr>
-                          <td>Frota Base</td>
-                          <td>3011-2828</td>
-                          <td>-</td>
-                      </tr>
+                  
+                     
                     </tbody>
                   </table>
                 </div>
               </div>
-            </td>
-          </tr>
-          <tr>
-            <td width="227" height="1"><img src="imagens/menu_baixo.gif" width="226" height="47"></td>
-            <td width="371" background="imagens/principal_25.jpg" height="1">&nbsp;</td>
-            <td width="181" background="imagens/principal_29.jpg" height="1">&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="3" height="37"><img src="imagens/barra_inferior.gif" width="778" height="37"></td>
-          </tr>
-    </table>
-  </center>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+       
+ 
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
